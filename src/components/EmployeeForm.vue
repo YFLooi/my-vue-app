@@ -8,7 +8,7 @@
       <!-- employee.name is defined in data() below -->
       <!-- :class treats the class as JS instead of plain string -->
       <!-- Here, :class refers to the "submitting" state and  "invalidName()" computed(). 
-      If both are true, "has-error" causes the input box border to turn red -->
+      If both are true, the class "has-error" is added. Here, thiscauses the input box border to turn red -->
       <!-- @focus = onfocus, @keypress = onkeypress -->
       <input
         id="employee-name"
